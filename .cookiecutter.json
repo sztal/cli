@@ -1,0 +1,18 @@
+{
+    "_template": "/home/sztal/Coding/cookiecutters/package/",
+    "author": "Szymon Talaga",
+    "cli": "no",
+    "copyright_year": "2024",
+    "description": "Command-line interaces powered by Typer and Pydantic.",
+    "development_status": "Development Status :: 3 - Alpha",
+    "email": "stalaga@protonmail.com",
+    "friendly_name": "CLI",
+    "github_owner": "sztal",
+    "github_repo": "cli",
+    "license": "MIT",
+    "package_name": "cli",
+    "project_name": "cli",
+    "python": "3.11",
+    "pyversion": "py311",
+    "template_version": "0.0"
+}
