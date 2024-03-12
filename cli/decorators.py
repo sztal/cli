@@ -23,7 +23,7 @@ def debuggable(callable: Callable[..., Any]) -> Callable[..., Any]:
         try:
             return callable(*args, **kwargs)
         except Exception as exc:
-            ctx = click.get_current_context()
+            ctx = click.get_current_context().find_root()
             if getattr(ctx.obj, "pdb", False):
                 *_, tb = sys.exc_info()
                 traceback.print_exc()
